@@ -32,8 +32,7 @@ npm install
 
 To run "place-react" on your local machine, navigate to the project directory and use the following command:
 
-````
+```
 npm start
 ```
-
 This will start the development server and open "place-react" in your default browser. You can then interact with the page by adding, deleting, and liking photos, as well as editing your profile.
