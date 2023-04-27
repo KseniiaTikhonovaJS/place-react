@@ -125,8 +125,6 @@ function App() {
         />
         <span id="input-link-avatar-error" className="error"></span>
       </PopupWithForm>
-      <Card />
-      <ul className="elements"></ul>
     </div>
   );
 }
