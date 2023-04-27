@@ -1,16 +1,19 @@
-# PLACE-REACT
+# study project "PLACE-REACT"
 
 by Kseniia Tikhonova
 
-*place-react is an interactive webpage. React. Responsive web design. (italic)*
+*place-react is an interactive webpage. Responsive web design. (italic)*
 *Place-react features include: adding, deleting and liking photos, opening a popup with a picture, editing a profile (avatar and personal information). (italic)*
 
 ## Technologies used
 
 * React single page application
-* Routing done using React Router
-* State management via Redux
+* Webpack
+* REST API
 
+## CSS
+
+* BEM methodology
 
 ## Installation
 
