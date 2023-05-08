@@ -2,18 +2,29 @@
 
 by Kseniia Tikhonova
 
-*place-react is an interactive webpage. Responsive web design. (italic)*
-*Place-react features include: adding, deleting and liking photos, opening a popup with a picture, editing a profile (avatar and personal information). (italic)*
+*Place-react is my Yandex.Practice tutorial project in the WEB development course as part of learning React.js, which allows you to share photos of places. (italic)*
+
+## Main functionality
+
+* Profile editing
+* Adding a new card
+* Removing a card by clicking on the icon
+* Putting / removing like
+* Opening a photo in full size
 
 ## Technologies used
 
-* React single page application
-* Webpack
-* REST API
-
-## CSS
-
+* HTML5
+* CSS3
+* Flexbox
+* grid-layout
+* React (Create React App, porting markup to JSX, functional components + hooks)
+* JavaScript (ES6 standard)
 * BEM methodology
+* git
+* Adaptive layout
+* OOP
+* webpack
 
 ## Installation
 

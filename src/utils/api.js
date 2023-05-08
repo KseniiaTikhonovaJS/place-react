@@ -8,7 +8,7 @@ class Api {
     if (res.ok) {
       return res.json();
     }
-    return Promise.reject('An error has occurred');
+    return Promise.reject('Произошла ошибка');
   }
 
   getAllPlaces() {
@@ -51,7 +51,7 @@ class Api {
     return fetch(`${this._url}users/me/avatar`, {
       method: 'PATCH',
       headers: this._headers,
-      body: JSON.stringify({ avatar: link.link }),
+      body: JSON.stringify({ avatar: link }),
     }).then(this._checkResponse);
   }
 
@@ -59,7 +59,7 @@ class Api {
     return fetch(`${this._url}users/me`, {
       method: 'PATCH',
       headers: this._headers,
-      body: JSON.stringify({ about: data.job, name: data.name }),
+      body: JSON.stringify({ about: data.about, name: data.name }),
     }).then(this._checkResponse);
   }
 
