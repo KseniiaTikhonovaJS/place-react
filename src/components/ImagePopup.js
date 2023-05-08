@@ -1,8 +1,10 @@
 import React from 'react';
+import usePopupClose from '../hooks/usePopupClose';
 
 function ImagePopup(cardProps) {
   const card = cardProps.card;
   const isVisible = card ? 'popup_is-opened' : '';
+  usePopupClose(isVisible, cardProps.onClose);
   return (
     <div className={`popup popup_type_image popup_overley_dark ${isVisible}`}>
       <div className="popup__container popup__container_type_image">
